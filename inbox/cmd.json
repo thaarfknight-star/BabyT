@@ -1,1 +1,1 @@
-{"id": "screenshot-1789967741", "cmd": "screenshot", "args": {}, "ts": 1789967741}
+{"id": "exec-1789967846", "cmd": "exec", "args": {"command": "Start-Process chrome; Start-Sleep -Seconds 3; Get-Process chrome -ErrorAction SilentlyContinue | Select-Object -First 1 ProcessName, Id | Format-Table -HideTableHeaders | Out-String"}, "ts": 1789967846}
