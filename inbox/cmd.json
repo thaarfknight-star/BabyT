@@ -1,1 +1,1 @@
-{"id": "exec-1789967846", "cmd": "exec", "args": {"command": "Start-Process chrome; Start-Sleep -Seconds 3; Get-Process chrome -ErrorAction SilentlyContinue | Select-Object -First 1 ProcessName, Id | Format-Table -HideTableHeaders | Out-String"}, "ts": 1789967846}
+{"id": "exec-1789967942", "cmd": "exec", "args": {"command": "Start-Process windscribe -ErrorAction SilentlyContinue; Start-Sleep -Seconds 4; Get-Process windscribe* -ErrorAction SilentlyContinue | Select-Object ProcessName, Id | Format-Table -HideTableHeaders | Out-String"}, "ts": 1789967942}
